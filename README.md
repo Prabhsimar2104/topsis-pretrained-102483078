@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project evaluates **6 pre-trained sentence transformer models** from HuggingFace on the **STS Benchmark** dataset and uses **TOPSIS multi-criteria decision making** to rank them based on multiple performance metrics.
 
@@ -40,7 +40,7 @@ Unlike single-metric comparisons, TOPSIS finds the optimal **balance** across al
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **STS Benchmark (Semantic Textual Similarity)**
 - Source: `mteb/stsbenchmark-sts`
@@ -50,7 +50,7 @@ Unlike single-metric comparisons, TOPSIS finds the optimal **balance** across al
 
 ---
 
-## 🤖 Models Evaluated
+## Models Evaluated
 
 | Model | Parameters | Description |
 |-------|-----------|-------------|
@@ -63,7 +63,7 @@ Unlike single-metric comparisons, TOPSIS finds the optimal **balance** across al
 
 ---
 
-## ⚖️ Evaluation Criteria
+## Evaluation Criteria
 
 TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 
@@ -77,7 +77,7 @@ TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 
 ---
 
-## 🏆 Results
+## Results
 
 ### TOPSIS Ranking
 
@@ -90,16 +90,16 @@ TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 | 5 | all-distilroberta-v1 | 0.3170 | 0.8252 | 0.8354 | 84.86 | 82.0 | 227.59 |
 | 6 | all-mpnet-base-v2 | 0.0472 | 0.8342 | 0.8404 | 37.74 | 109.0 | 403.33 |
 
-### 🎯 Winner: paraphrase-MiniLM-L6-v2
+### Winner: paraphrase-MiniLM-L6-v2
 
 **Why it won (TOPSIS Score: 0.9889):**
 
-✅ **Fastest model**: 264.13 sentences/second (7x faster than all-mpnet-base-v2)  
-✅ **Most efficient**: Smallest size (22.7M) & lowest memory (70.82 MB)  
-✅ **High accuracy**: Spearman 0.8412 (only 1.2% below highest)  
-✅ **Production-ready**: Optimal balance for real-world deployment  
+**Fastest model**: 264.13 sentences/second (7x faster than all-mpnet-base-v2)  
+**Most efficient**: Smallest size (22.7M) & lowest memory (70.82 MB)  
+**High accuracy**: Spearman 0.8412 (only 1.2% below highest)  
+**Production-ready**: Optimal balance for real-world deployment  
 
-### 📈 Key Insights
+### Key Insights
 
 1. **Most accurate ≠ Best overall**: 
    - `distilbert-base-nli-stsb` had highest accuracy (0.8516) but ranked 4th
@@ -115,7 +115,7 @@ TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### 1. TOPSIS Scores Ranking
 ![TOPSIS Scores](results/topsis_scores_ranking.png)
@@ -137,7 +137,7 @@ TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -169,7 +169,7 @@ TOPSIS analysis based on 5 weighted criteria (totaling 100%):
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Quick Start - Run All Steps
 
@@ -215,7 +215,7 @@ python create_visualizations.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sentence_similarity_topsis/
@@ -246,7 +246,7 @@ sentence_similarity_topsis/
 
 ---
 
-## 🎓 Conclusion
+## Conclusion
 
 ### Recommendation
 
@@ -274,11 +274,11 @@ This project demonstrates that:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Prabhsimar Singh**  
 Roll Number: 102483078  
-Course: UCS654 - Prescriptive Analytics
+Course: UCS654 - Predictive Analysis using Statistics
 
 ### Custom TOPSIS Package
 
@@ -289,7 +289,7 @@ This project uses my custom TOPSIS implementation:
 
 ---
 
-## 📚 References
+## References
 
 1. [Sentence Transformers Documentation](https://www.sbert.net/)
 2. [HuggingFace Models](https://huggingface.co/sentence-transformers)
@@ -298,13 +298,13 @@ This project uses my custom TOPSIS implementation:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - HuggingFace for providing pre-trained models and datasets
 - Sentence Transformers library developers
