@@ -1,0 +1,56 @@
+[
+  {
+    "model_name": "all-MiniLM-L6-v2",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "spearman_correlation": 0.8203246731235654,
+    "pearson_correlation": 0.8274064258290301,
+    "inference_speed": 218.48522299312066,
+    "model_size": 22.7,
+    "memory_usage": 111.078125
+  },
+  {
+    "model_name": "all-mpnet-base-v2",
+    "model_id": "sentence-transformers/all-mpnet-base-v2",
+    "spearman_correlation": 0.8342190421330611,
+    "pearson_correlation": 0.8403996149308115,
+    "inference_speed": 37.742466344106035,
+    "model_size": 109,
+    "memory_usage": 403.33203125
+  },
+  {
+    "model_name": "paraphrase-MiniLM-L6-v2",
+    "model_id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+    "spearman_correlation": 0.8412344292546856,
+    "pearson_correlation": 0.8361305264981636,
+    "inference_speed": 264.1292731414586,
+    "model_size": 22.7,
+    "memory_usage": 70.8203125
+  },
+  {
+    "model_name": "distilbert-base-nli-stsb",
+    "model_id": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+    "spearman_correlation": 0.8516186502017491,
+    "pearson_correlation": 0.842518828111974,
+    "inference_speed": 76.45175045534262,
+    "model_size": 66,
+    "memory_usage": 164.44140625
+  },
+  {
+    "model_name": "all-distilroberta-v1",
+    "model_id": "sentence-transformers/all-distilroberta-v1",
+    "spearman_correlation": 0.825179748340118,
+    "pearson_correlation": 0.8353960227818658,
+    "inference_speed": 84.8614911484841,
+    "model_size": 82,
+    "memory_usage": 227.58984375
+  },
+  {
+    "model_name": "paraphrase-multilingual-MiniLM",
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "spearman_correlation": 0.8441678301403761,
+    "pearson_correlation": 0.8342123281027383,
+    "inference_speed": 130.76899217164723,
+    "model_size": 118,
+    "memory_usage": 111.43359375
+  }
+]

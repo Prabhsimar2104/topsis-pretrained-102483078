@@ -1,0 +1,72 @@
+======================================================================
+TEXT SENTENCE SIMILARITY - TOPSIS ANALYSIS SUMMARY
+======================================================================
+
+TOPSIS CONFIGURATION
+----------------------------------------------------------------------
+Criteria and Weights:
+  1. Spearman Correlation (30%) - Maximize
+  2. Pearson Correlation (25%) - Maximize
+  3. Inference Speed (20%) - Maximize
+  4. Model Size (15%) - Minimize
+  5. Memory Usage (10%) - Minimize
+
+FINAL RANKING
+----------------------------------------------------------------------
+
+Rank 1: paraphrase-MiniLM-L6-v2
+  TOPSIS Score: 0.988909
+  Spearman: 0.8412
+  Pearson: 0.8361
+  Speed: 264.13 sent/sec
+  Size: 22.7M params
+  Memory: 70.82 MB
+
+Rank 2: all-MiniLM-L6-v2
+  TOPSIS Score: 0.838366
+  Spearman: 0.8203
+  Pearson: 0.8274
+  Speed: 218.49 sent/sec
+  Size: 22.7M params
+  Memory: 111.08 MB
+
+Rank 3: paraphrase-multilingual-MiniLM
+  TOPSIS Score: 0.422568
+  Spearman: 0.8442
+  Pearson: 0.8342
+  Speed: 130.77 sent/sec
+  Size: 118.0M params
+  Memory: 111.43 MB
+
+Rank 4: distilbert-base-nli-stsb
+  TOPSIS Score: 0.381291
+  Spearman: 0.8516
+  Pearson: 0.8425
+  Speed: 76.45 sent/sec
+  Size: 66.0M params
+  Memory: 164.44 MB
+
+Rank 5: all-distilroberta-v1
+  TOPSIS Score: 0.316961
+  Spearman: 0.8252
+  Pearson: 0.8354
+  Speed: 84.86 sent/sec
+  Size: 82.0M params
+  Memory: 227.59 MB
+
+Rank 6: all-mpnet-base-v2
+  TOPSIS Score: 0.047247
+  Spearman: 0.8342
+  Pearson: 0.8404
+  Speed: 37.74 sent/sec
+  Size: 109.0M params
+  Memory: 403.33 MB
+
+======================================================================
+RECOMMENDATION
+======================================================================
+Based on TOPSIS multi-criteria analysis, the best model is:
+  paraphrase-MiniLM-L6-v2
+
+This model achieves the highest TOPSIS score (0.988909)
+by balancing all evaluation criteria effectively.

@@ -1,0 +1,7 @@
+model_name,model_id,spearman_correlation,pearson_correlation,inference_speed,model_size,memory_usage
+all-MiniLM-L6-v2,sentence-transformers/all-MiniLM-L6-v2,0.8203246731235654,0.8274064258290301,218.48522299312066,22.7,111.078125
+all-mpnet-base-v2,sentence-transformers/all-mpnet-base-v2,0.8342190421330611,0.8403996149308115,37.742466344106035,109.0,403.33203125
+paraphrase-MiniLM-L6-v2,sentence-transformers/paraphrase-MiniLM-L6-v2,0.8412344292546856,0.8361305264981636,264.1292731414586,22.7,70.8203125
+distilbert-base-nli-stsb,sentence-transformers/distilbert-base-nli-stsb-mean-tokens,0.8516186502017491,0.842518828111974,76.45175045534262,66.0,164.44140625
+all-distilroberta-v1,sentence-transformers/all-distilroberta-v1,0.825179748340118,0.8353960227818658,84.8614911484841,82.0,227.58984375
+paraphrase-multilingual-MiniLM,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,0.8441678301403761,0.8342123281027383,130.76899217164723,118.0,111.43359375
